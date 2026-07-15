@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/300?random=1",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 1,
+    "description": "An all-in-one workspace for notes, documents, wikis, and project management.",
+    "size": 89,
+    "reviews": 2450000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 510000 },
+      { "name": "5 star", "count": 1806000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=2",
+    "title": "Todoist",
+    "companyName": "Doist",
+    "id": 2,
+    "description": "A powerful task manager to organize your work and personal life.",
+    "size": 36,
+    "reviews": 1250000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 912000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=3",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 3,
+    "description": "Visual project management using boards, lists, and cards.",
+    "size": 42,
+    "reviews": 1800000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 22000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1276000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=4",
+    "title": "ClickUp",
+    "companyName": "ClickUp",
+    "id": 4,
+    "description": "Manage tasks, docs, goals, and team collaboration in one place.",
+    "size": 74,
+    "reviews": 890000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 655000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=5",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 5,
+    "description": "Capture notes, ideas, and important information from anywhere.",
+    "size": 58,
+    "reviews": 2100000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 530000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=6",
+    "title": "Microsoft To Do",
+    "companyName": "Microsoft",
+    "id": 6,
+    "description": "Simple daily planner with reminders and task synchronization.",
+    "size": 31,
+    "reviews": 950000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 42000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 677000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=7",
+    "title": "Google Keep",
+    "companyName": "Google",
+    "id": 7,
+    "description": "Create notes, checklists, and voice memos instantly.",
+    "size": 24,
+    "reviews": 1650000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 28000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 390000 },
+      { "name": "5 star", "count": 1114000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=8",
+    "title": "Forest",
+    "companyName": "Seekrtech",
+    "id": 8,
+    "description": "Stay focused and grow virtual trees while avoiding distractions.",
+    "size": 176,
+    "reviews": 620000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 116000 },
+      { "name": "5 star", "count": 469000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=9",
+    "title": "TickTick",
+    "companyName": "Appest",
+    "id": 9,
+    "description": "Task management, calendar, habits, and Pomodoro timer in one app.",
+    "size": 41,
+    "reviews": 780000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 145000 },
+      { "name": "5 star", "count": 593000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=10",
+    "title": "Slack",
+    "companyName": "Salesforce",
+    "id": 10,
+    "description": "Business communication and team collaboration platform.",
+    "size": 72,
+    "reviews": 2400000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 45000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 220000 },
+      { "name": "4 star", "count": 620000 },
+      { "name": "5 star", "count": 1445000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=11",
+    "title": "Asana",
+    "companyName": "Asana",
+    "id": 11,
+    "description": "Track work, projects, and team goals efficiently.",
+    "size": 56,
+    "reviews": 980000,
+    "ratingAvg": 4.7,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 46000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 704000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=12",
+    "title": "Monday.com",
+    "companyName": "Monday",
+    "id": 12,
+    "description": "Work management platform for teams and businesses.",
+    "size": 63,
+    "reviews": 870000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 34000 },
+      { "name": "4 star", "count": 170000 },
+      { "name": "5 star", "count": 651000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=13",
+    "title": "Obsidian",
+    "companyName": "Obsidian",
+    "id": 13,
+    "description": "Powerful markdown-based knowledge management application.",
+    "size": 28,
+    "reviews": 420000,
+    "ratingAvg": 4.9,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 333500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=14",
+    "title": "Microsoft OneNote",
+    "companyName": "Microsoft",
+    "id": 14,
+    "description": "Digital notebook for organizing notes across devices.",
+    "size": 86,
+    "reviews": 1900000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 470000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=15",
+    "title": "Clockify",
+    "companyName": "CAKE.com",
+    "id": 15,
+    "description": "Free time tracker for individuals and teams.",
+    "size": 33,
+    "reviews": 310000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 61000 },
+      { "name": "5 star", "count": 230500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=16",
+    "title": "Grammarly",
+    "companyName": "Grammarly",
+    "id": 16,
+    "description": "AI writing assistant for grammar, clarity, and tone.",
+    "size": 48,
+    "reviews": 3500000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 760000 },
+      { "name": "5 star", "count": 2505000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=17",
+    "title": "Zapier",
+    "companyName": "Zapier",
+    "id": 17,
+    "description": "Automate workflows by connecting thousands of apps.",
+    "size": 27,
+    "reviews": 280000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 56000 },
+      { "name": "5 star", "count": 210000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=18",
+    "title": "RescueTime",
+    "companyName": "RescueTime",
+    "id": 18,
+    "description": "Track your digital habits and improve productivity.",
+    "size": 19,
+    "reviews": 160000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 36000 },
+      { "name": "5 star", "count": 110700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=19",
+    "title": "Habitica",
+    "companyName": "Habitica",
+    "id": 19,
+    "description": "Gamify your habits and daily tasks with RPG mechanics.",
+    "size": 45,
+    "reviews": 480000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 6500 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 94000 },
+      { "name": "5 star", "count": 358000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/300?random=20",
+    "title": "Canva",
+    "companyName": "Canva",
+    "id": 20,
+    "description": "Create professional designs, presentations, and social media graphics.",
+    "size": 95,
+    "reviews": 7200000,
+    "ratingAvg": 4.9,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 68000 },
+      { "name": "3 star", "count": 190000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 5800000 }
+    ]
+  }
+]

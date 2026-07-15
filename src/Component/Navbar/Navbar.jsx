@@ -13,8 +13,8 @@ const Navbar = () => {
 
 
 
-            <div className='max-w-360 mx-auto'>
-                <div className="navbar bg-base-100 ">
+            <div className='lg:max-w-360   mx-auto'>
+                <div className="navbar  ">
                     <div className="navbar-start">
 
                         <Link to={"/"}>
