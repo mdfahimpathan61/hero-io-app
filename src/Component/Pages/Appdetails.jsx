@@ -2,6 +2,7 @@ import { Download, Star, UserStar } from 'lucide-react';
 
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
+import addToDB from './../../utilities/addToDB'
 
 const Appdetails = () => {
     const appData = useLoaderData()
@@ -10,7 +11,7 @@ const Appdetails = () => {
 
     const appDetails = appData.find(app => app.id == id)
     console.log(appDetails)
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = appDetails;
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings,id } = appDetails;
     const reverseRating = [...ratings].reverse()
 
     return (
@@ -42,7 +43,7 @@ const Appdetails = () => {
                             </div>
                         </div>
 
-                        <button className='btn text-white p-2 bg-green-400'>Install Now ({size} MB) </button>
+                        <button onClick={() =>addToDB(id)} className='btn text-white p-2 bg-green-400'>Install Now ({size} MB) </button>
                     </div>
 
                 </div>
@@ -67,9 +68,9 @@ const Appdetails = () => {
 
                 </div>
 
-                <div>
-                    <h3>Description : </h3>
-                    <p>{description}</p>
+                <div className='ml-2'>
+                    <h3 className='text-2xl font-bold'>Description : </h3>
+                    <p className='text-gray-500'>{description}</p>
                 </div>
             </div>
 

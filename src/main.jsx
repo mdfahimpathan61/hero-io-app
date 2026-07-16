@@ -7,6 +7,7 @@ import Root from './Component/Root/Root.jsx'
 import Home from './Component/Pages/Home.jsx'
 import Appdetails from './Component/Pages/Appdetails.jsx'
 import AllApps from './Component/Pages/AllApps.jsx'
+import InstalledApps from './Component/Pages/InstalledApps.jsx'
 
 
 
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
         path:"/apps",
         loader:() => fetch('/appsData.json'),
         element:<AllApps></AllApps>
+      },
+      {
+        path:"/installation",
+        loader:()=> fetch('/appsData.json'),
+        element:<InstalledApps></InstalledApps>
       }
     ]
   }
