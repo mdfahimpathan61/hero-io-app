@@ -1,7 +1,7 @@
 import { Download, Star, UserStar } from 'lucide-react';
-import React from 'react';
+
 import { useLoaderData, useParams } from 'react-router';
-import { Bar, BarChart, Legend, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
+import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 const Appdetails = () => {
     const appData = useLoaderData()
