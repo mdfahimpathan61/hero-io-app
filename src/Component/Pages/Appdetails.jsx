@@ -10,8 +10,8 @@ const Appdetails = () => {
     const { id } = useParams()
 
     const appDetails = appData.find(app => app.id == id)
-    console.log(appDetails)
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings,id } = appDetails;
+   //console.log(appDetails)
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = appDetails;
     const reverseRating = [...ratings].reverse()
 
     return (
@@ -26,18 +26,18 @@ const Appdetails = () => {
                         <small className='text-gray-500 font-lg my-3'>Developed by : <span className='text-[#632EE3]'>{companyName}</span></small>
                         <hr className=' border-gray-300 mt-3' />
                         <div className='grid grid-cols-2 md:grid-cols-3 gap-5  py-10'>
-                            <div>
-                                <p className='h-8 text-green-500 '><Download /></p>
+                            <div className=''>
+                                <div className='h-8 text-green-500 ml-2 '><Download /></div>
                                 <small className='text-sm text-gray-500'>Download</small>
                                 <h2 className='text-3xl font-bold'>{downloads / 1000000}M</h2>
                             </div>
                             <div>
-                                <p className='h-8 text-yellow-400'><Star /></p>
+                                <p className='h-8 text-yellow-400 ml-2'><Star /></p>
                                 <small className='text-sm text-gray-500'>Rating</small>
                                 <h2 className='text-3xl font-bold'>{ratingAvg}</h2>
                             </div>
                             <div>
-                                <p className='h-8 text-violet-700'><UserStar /></p>
+                                <p className='h-8 text-violet-700 ml-2'><UserStar /></p>
                                 <small className='text-sm text-gray-500'>Total Review</small>
                                 <h2 className='text-3xl font-bold'>{reviews / 1000}K</h2>
                             </div>

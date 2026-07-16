@@ -28,7 +28,7 @@ const Navbar = () => {
                         <ul className="menu gap-8 menu-horizontal px-1">
                             <li> <NavLink to={"/"}>Home</NavLink></li>
                             <li><NavLink to={"/apps"}>Apps</NavLink></li>
-                            <li><NavLink to={"/intallation"}>Installation</NavLink></li>
+                            <li><NavLink to={"/installation"}>Installation</NavLink></li>
                         </ul>
                     </div>
 
