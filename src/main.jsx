@@ -8,6 +8,7 @@ import Home from './Component/Pages/Home.jsx'
 import Appdetails from './Component/Pages/Appdetails.jsx'
 import AllApps from './Component/Pages/AllApps.jsx'
 import InstalledApps from './Component/Pages/InstalledApps.jsx'
+import Error from './Component/Pages/Error.jsx'
 
 
 
@@ -35,8 +36,11 @@ const router = createBrowserRouter([
         path:"/installation",
         loader:()=> fetch('/appsData.json'),
         element:<InstalledApps></InstalledApps>
-      }
-    ]
+      },
+      
+    ],
+     ErrorBoundary:Error
+      
   }
 ])
 

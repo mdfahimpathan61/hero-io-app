@@ -34,7 +34,7 @@ const InstalledApps = () => {
                     <h1 className='text-4xl font-bold mb-4'>Your Installed Apps</h1>
                     <p className='text-gray-400'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='lg:max-w-340 mx-auto my-3 md:flex justify-between'>
+                <div className='lg:max-w-340 mx-auto my-3 px-2 items-center flex justify-between'>
                     <h3 className='text-xl font-bold mb-3 md:mb-0'>({installedApps.length}) Apps found</h3>
 
                     <div className="dropdown">
@@ -45,10 +45,11 @@ const InstalledApps = () => {
                         </ul>
                     </div>
                 </div>
+                <hr className='border-gray-300' />
                 <div className='lg:max-w-360 mx-auto pb-4'>
                     {installedApps.length == 0 ?
                         <div className='text-center py-7 '>
-                            <h1 className='text-red-400 text-2xl font-bold'>No Installed App</h1>
+                            <h1 className='text-red-400 text-2xl font-bold p-4'>No Installed App!.. </h1>
                             <Link to={"/apps"}>
                             <button   className='btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] py-2 px-4 text-white mt-3'>Go Back</button>
                         </Link>

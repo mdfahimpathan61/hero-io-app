@@ -10,7 +10,7 @@ const AppD = ({ app }) => {
         <Link to={`/appdetails/${id}`}>
            
                 <div className='p-4 lg:max-w-80 mx-auto max-w-70 rounded-lg bg-white h-full flex flex-col '>
-                <img className='mx-auto ' src={image} alt="" />
+                <img className='mx-auto w-4/5 ' src={image} alt="" />
                 <p className='font-bold my-2 '>{title} : <span className='font-normal flex-1'>{description}</span></p>
                 <div className='mt-3 flex justify-between'>
                     <div className="badge badge-soft badge-success ">     <ArrowDownToLine className='max-h-4' /> {downloads / 1000000}M</div>
