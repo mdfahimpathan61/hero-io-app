@@ -3,8 +3,12 @@ import React from 'react';
 import { Link } from 'react-router';
 
 
+
 const AppD = ({ app }) => {
     const { image, title, downloads, ratingAvg, description,id } = app;
+
+
+    
     //console.log(app)
     return (
         <Link to={`/appdetails/${id}`}>

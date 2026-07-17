@@ -3,14 +3,39 @@ import { Download, Star, UserStar } from 'lucide-react';
 import { useLoaderData, useParams } from 'react-router';
 import { Bar, BarChart, Tooltip, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 import addToDB from './../../utilities/addToDB'
+import { Bounce, toast, ToastContainer } from 'react-toastify';
+import { useState } from 'react';
+
+import {getId} from'./../../utilities/addToDB'
 
 const Appdetails = () => {
     const appData = useLoaderData()
     // console.log(appData)
     const { id } = useParams()
+    
+
+    const installedIds = getId()
+    const [isInstalled, setIsInstalled]  = useState(installedIds.includes(parseInt(id)))
+    //console.log(isInstalled, installedIds, parseInt(id))
+
+
+
+
+    const notify = () => toast('🦄 Instalation successful.', {
+        position: "top-right",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+
+    });
 
     const appDetails = appData.find(app => app.id == id)
-   //console.log(appDetails)
+    //console.log(appDetails)
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = appDetails;
     const reverseRating = [...ratings].reverse()
 
@@ -43,7 +68,26 @@ const Appdetails = () => {
                             </div>
                         </div>
 
-                        <button onClick={() =>addToDB(id)} className='btn text-white p-2 bg-green-400'>Install Now ({size} MB) </button>
+                        <button onClick={() => { addToDB(id); notify(); setIsInstalled(true) }} disabled={isInstalled} className={isInstalled?" bg-green-700 rounded p-2 text-gray-900":"btn text-white p-2 bg-green-400 rounded "}>{isInstalled ? "Installed":`Install Now (${size} MB)`} </button>
+                        <ToastContainer
+                            position="top-right"
+                            autoClose={2000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick={false}
+                            rtl={false}
+                            pauseOnFocusLoss
+                            draggable
+                            pauseOnHover
+                            theme="light"
+                            transition={Bounce}
+                            toastStyle={{
+                                fontSize: "14px",
+                                minHeight: "50px",
+                                width: "200px",
+                                marginTop:"10px"
+                            }}
+                        />
                     </div>
 
                 </div>
@@ -60,7 +104,7 @@ const Appdetails = () => {
                                 <XAxis type="number" />
                                 <YAxis type="category" dataKey="name" width={60} />
                                 <Tooltip />
-                                <Bar dataKey="count" fill="#632EE3"  />
+                                <Bar dataKey="count" fill="#632EE3" />
                             </BarChart>
                         </ResponsiveContainer>
                     </div>
