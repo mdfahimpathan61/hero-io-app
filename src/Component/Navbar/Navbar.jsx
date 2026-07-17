@@ -24,7 +24,7 @@ const Navbar = () => {
                         </div>
                         </Link>
                     </div>
-                    <div className="navbar-center hidden lg:flex">
+                    <div className="navbar-center hidden md:flex">
                         <ul className="menu gap-8 menu-horizontal px-1">
                             <li> <NavLink to={"/"}>Home</NavLink></li>
                             <li><NavLink to={"/apps"}>Apps</NavLink></li>
@@ -44,7 +44,9 @@ const Navbar = () => {
                                 <li><NavLink to={"/"}>Home</NavLink></li>
                                 <li><NavLink to={"/apps"}>Apps</NavLink></li>
                                 <li><NavLink to={"/installation"}>Installation</NavLink></li>
-                                <a className="btn bg-[#632EE3] text-white text-sm items-center" href='https://github.com/mdfahimpathan61' target='_blank'><span><img  className='w-7' src="../../../resource/assets/github.png" alt="" /></span>Contribute</a>
+                                <button className="btn bg-[#632EE3] text-white p-0  mt-2" >
+                                    <a className='flex items-center  gap-2'  href='https://github.com/mdfahimpathan61' target='_blank'><span><img  className='w-4 h-4' src="../../../resource/assets/github.png" alt="" /></span> <span className='text-sm'>Contribute</span></a>
+                                </button>
                             </ul>
                         </div>
                     </div>
@@ -52,7 +54,7 @@ const Navbar = () => {
 
 
                     <div className="navbar navbar-end hidden sm:grid">
-                        <a className="btn bg-[#632EE3] text-white items-center" href='https://github.com/mdfahimpathan61' target='_blank'><span><img src="../../../resource/assets/github.png" alt="" /></span>Contribute</a>
+                        <a className="btn bg-[#632EE3] text-white items-center" href='https://github.com/mdfahimpathan61' target='_blank'><span><img className='' src="../../../resource/assets/github.png" alt="" /></span>Contribute</a>
                     </div>
 
                 </div>

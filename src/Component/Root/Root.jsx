@@ -8,8 +8,8 @@ const Root = () => {
     const navigation = useNavigation()
 
     const loaderImgDiv = <>
-        <div className='max-w-80 mx-auto'>
-            <img src="../../../resource/assets/logo.png" alt="" />
+        <div className='max-w-80 mx-auto  py-20'>
+            <img className='mx-auto animate-spin max-w-3/5' src="../../../resource/assets/logo.png" alt="" />
         </div>
     </>
 

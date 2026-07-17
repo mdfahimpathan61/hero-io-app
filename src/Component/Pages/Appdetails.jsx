@@ -118,6 +118,8 @@ const Appdetails = () => {
                 </div>
             </div>
 
+            
+
 
         </div >
     );

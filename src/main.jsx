@@ -14,38 +14,54 @@ import Error from './Component/Pages/Error.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path: "/",
     element: <Root></Root>,
-    children:[
+    children: [
       {
-        index:true,
-        loader:() => fetch('/appsData.json'),
-        element:<Home></Home>
+        index: true,
+        loader: async () => {
+          await new Promise((resolve) => setTimeout(resolve, 500)); 
+
+          return fetch("/appsData.json");
+        },
+        element: <Home></Home>
       },
       {
-        path:"/appdetails/:id",
-        loader:() => fetch('/appsData.json'),
-        element:<Appdetails></Appdetails>
+        path: "/appdetails/:id",
+        loader: async () => {
+          await new Promise((resolve) => setTimeout(resolve, 500)); 
+
+          return fetch("/appsData.json");
+        },
+        element: <Appdetails></Appdetails>
       },
       {
-        path:"/apps",
-        loader:() => fetch('/appsData.json'),
-        element:<AllApps></AllApps>
+        path: "/apps",
+        loader: async () => {
+          await new Promise((resolve) => setTimeout(resolve, 500)); 
+
+          return fetch("/appsData.json");
+        },
+        element: <AllApps></AllApps>
       },
       {
-        path:"/installation",
-        loader:()=> fetch('/appsData.json'),
-        element:<InstalledApps></InstalledApps>
+        path: "/installation",
+        loader: async () => {
+          await new Promise((resolve) => setTimeout(resolve, 500)); 
+
+          return fetch("/appsData.json");
+        },
+        element: <InstalledApps></InstalledApps>
       },
-      
+
     ],
-     ErrorBoundary:Error
-      
+    ErrorBoundary: Error
+
   }
 ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </StrictMode>,
 )
