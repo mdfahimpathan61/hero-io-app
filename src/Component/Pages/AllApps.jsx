@@ -25,7 +25,7 @@ const AllApps = () => {
                     <h1 className='text-4xl font-bold mb-4'>Our All Application</h1>
                     <p className='text-gray-400'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
-                <div className='mx-3 my-3 md:flex justify-between'>
+                <div className='lg:max-w-340 mx-3 my-3 md:flex justify-between md:mx-auto'>
                     <h3 className='text-xl font-bold mb-3 md:mb-0'>({apps.length}) Apps found</h3>
 
                     <label className="input">
