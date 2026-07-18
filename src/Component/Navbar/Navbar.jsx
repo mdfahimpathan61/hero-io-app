@@ -19,7 +19,7 @@ const Navbar = () => {
 
                         <Link to={"/"}>
                             <div className='flex items-center gap-3'>
-                            <img className='w-10' src="../../../resource/assets/logo.png" alt="" />
+                            <img className='w-10' src="/assets/logo.png" alt="" />
                             <h2 className='text-[#632EE3] font-bold'>HERO.IO</h2>
                         </div>
                         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                                 <li><NavLink to={"/apps"}>Apps</NavLink></li>
                                 <li><NavLink to={"/installation"}>Installation</NavLink></li>
                                 <button className="btn bg-[#632EE3] text-white p-0  mt-2" >
-                                    <a className='flex items-center  gap-2'  href='https://github.com/mdfahimpathan61' target='_blank'><span><img  className='w-4 h-4' src="../../../resource/assets/github.png" alt="" /></span> <span className='text-sm'>Contribute</span></a>
+                                    <a className='flex items-center  gap-2'  href='https://github.com/mdfahimpathan61' target='_blank'><span><img  className='w-4 h-4' src="/assets/github.png" alt="" /></span> <span className='text-sm'>Contribute</span></a>
                                 </button>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
 
                     <div className="navbar navbar-end hidden sm:grid">
-                        <a className="btn bg-[#632EE3] text-white items-center" href='https://github.com/mdfahimpathan61' target='_blank'><span><img className='' src="../../../resource/assets/github.png" alt="" /></span>Contribute</a>
+                        <a className="btn bg-[#632EE3] text-white items-center" href='https://github.com/mdfahimpathan61' target='_blank'><span><img className='' src="/assets/github.png" alt="" /></span>Contribute</a>
                     </div>
 
                 </div>

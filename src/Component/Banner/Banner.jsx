@@ -12,18 +12,18 @@ const Banner = () => {
                 <div className='flex justify-center mx-auto gap-5 max-w-4/5'>
                     <a href="https://play.google.com/store/games" target='_blank'>
                         <div className='flex gap-2 border border-gray-400 py-2 px-3 rounded-md            items-center'>
-                        <img className='w-8' src="../../../resource/assets/playstore.png" alt="" /> <span className='font-bold'>Google Playstore</span>
+                        <img className='w-8' src="/assets/playstore.png" alt="" /> <span className='font-bold'>Google Playstore</span>
                     </div>
                     </a>
                     <a  href='https://www.apple.com/app-store/' target='_blank'>
                         <div className='flex gap-2 border border-gray-400 py-2 px-3 rounded-md items-center'>
-                        <img className='w-8' src="../../../resource/assets/appstore.png" alt="" /> <span className='font-bold'>App Store</span>
+                        <img className='w-8' src="/assets/appstore.png" alt="" /> <span className='font-bold'>App Store</span>
                     </div>
                     </a>
                 </div>
 
                 <div className="mt-15">
-                    <img className="mx-auto max-w-3/4 " src="../../../resource/assets/hero.png" alt="" />
+                    <img className="mx-auto max-w-3/4 " src="/assets/hero.png" alt="" />
                 </div>
             </div>
             <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2]">    

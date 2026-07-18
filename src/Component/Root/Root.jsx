@@ -9,7 +9,7 @@ const Root = () => {
 
     const loaderImgDiv = <>
         <div className='max-w-80 mx-auto  py-20'>
-            <img className='mx-auto animate-spin max-w-3/5' src="../../../resource/assets/logo.png" alt="" />
+            <img className='mx-auto animate-spin max-w-3/5' src="/assets/logo.png" alt="" />
         </div>
     </>
 
